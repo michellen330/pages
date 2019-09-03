@@ -1,0 +1,26 @@
+body{
+    background-image: url(bean.png);
+}
+
+h1{
+    color: yellowgreen;
+    font-size: 100px;
+    background-color: red;
+    background-blend-mode: color-burn;
+    animation-duration: 3s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+    from{margin-top: -50px
+    
+    }
+    to{
+        margin-bottom: 50px;
+    }
+}
+
+p{
+    color:white;
+}
